@@ -1,0 +1,10 @@
+# IDE specific
+.idea/
+.vscode/
+resources/
+
+# Node
+node_modules/
+
+# Mac
+.DS_Store
