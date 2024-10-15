@@ -18,7 +18,7 @@ curl -L -O https://github.com/lxgw/LxgwBright/releases/latest/download/LXGWBrigh
 # Split all the fonts
 for file in ./LXGWBright/*.ttf; do
     dir_name=$(basename "$file" .ttf)
-    cn-font-split --testHTML=false --chunkSize=$((60*1024)) -i="$file" -o="./build/$dir_name"
+    cn-font-split -i="$file" -o="./build/$dir_name" --testHTML=false --chunkSize=$((50*1024)) 
 done && \
 
 # example script
