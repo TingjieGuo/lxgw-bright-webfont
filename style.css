@@ -1,11 +1,3 @@
-/* LXGW Bright */
-@import url('./build/LXGWBright-Italic/result.css');
-@import url('./build/LXGWBright-Medium/result.css');
-@import url('./build/LXGWBright-MediumItalic/result.css');
-@import url('./build/LXGWBright-Regular/result.css');
-@import url('./build/LXGWBright-Light/result.css');
-@import url('./build/LXGWBright-LightItalic/result.css');
-
 /* LXGW Bright GB*/
 @import url('./build/LXGWBrightGB-Italic/result.css');
 @import url('./build/LXGWBrightGB-Medium/result.css');
@@ -13,6 +5,14 @@
 @import url('./build/LXGWBrightGB-Regular/result.css');
 @import url('./build/LXGWBrightGB-Light/result.css');
 @import url('./build/LXGWBrightGB-LightItalic/result.css');
+
+/* LXGW Bright */
+@import url('./build/LXGWBright-Italic/result.css');
+@import url('./build/LXGWBright-Medium/result.css');
+@import url('./build/LXGWBright-MediumItalic/result.css');
+@import url('./build/LXGWBright-Regular/result.css');
+@import url('./build/LXGWBright-Light/result.css');
+@import url('./build/LXGWBright-LightItalic/result.css');
 
 /* LXGW Bright TC*/
 @import url('./build/LXGWBrightTC-Italic/result.css');
