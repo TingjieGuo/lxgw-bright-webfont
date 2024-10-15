@@ -14,6 +14,14 @@ body {
     font-family: 
     "LXGW Bright",
     "LXGW Bright Light",
-    "LXGW Bright Medium";
+    "LXGW Bright Medium",
+    
+    "LXGW Bright GB",
+    "LXGW Bright GB Light",
+    "LXGW Bright GB Medium",
+
+    "LXGW Bright TC",
+    "LXGW Bright TC Light",
+    "LXGW Bright TC Medium";
 }
 ```
