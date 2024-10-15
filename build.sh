@@ -27,8 +27,7 @@ for file in ./LXGWBright*/*.ttf; do
 done && \
 
 # example script
-# cn-font-split --testHTML=false --chunkSize=$((60*1024)) -i=./LXGWBright/LXGWBright-Light.ttf -o=./build/LXGWBright-Light
-# cn-font-split --testHTML=false --chunkSize=$((60*1024)) -i=./LXGWBright/LXGWBright-Regular.ttf -o=./build/LXGWBright-Regular
+# cn-font-split -i=./LXGWBrightGB/LXGWBrightGB-Regular.ttf -o=./build/LXGWBrightGB-Regular_test --testHTML=false --chunkSize=$((60*1024)) --subsets='["U+4E00-U+9FFF"]'
 
 # Clean up
 rm -rf ./LXGWBright*.7z \
